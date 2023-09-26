@@ -32,9 +32,10 @@ const Weather = () => {
 
   }
   
-
+// background-color: ;
   return (
-    <div className="pt-5">
+    <div className="pt-5 h-full w-[400px] m-auto rounded-md py-5">
+        <h1 className='text-4xl text-semibold py-5'>Weather App</h1>
       <div className="flex items-center justify-center gap-2 w-[300px] m-auto bg-white rounded-full ">
         <div>
         <input type="text" placeholder="Search.." className="p-4 border-none text-black focus:border-none" id="city_input" onInput={(e) => Input(e)}/>
